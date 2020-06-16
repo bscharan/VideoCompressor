@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/amoled_black">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/editjpg">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Video"
+        android:layout_margin="10dp"
+        android:onClick="loadvideo"
+        android:layout_gravity="center_horizontal">
+
+    </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work on Sample Video"
+            android:layout_margin="10dp"
+            android:onClick="workonsamplevideo">
+
+        </Button>
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
